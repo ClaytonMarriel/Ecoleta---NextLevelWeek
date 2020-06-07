@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+body {
+    background: #f0f0f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Ubuntu, sans-serif;
+    color: var(--title-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(min-width: 1700px) {
+    #page-home {
+        background-position: 40vw;
+    }
+}
+
+@media(max-height: 760px) {
+    #page-home {
+        background-position-y: 200px
+    }
+}
